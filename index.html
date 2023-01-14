@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KodeGo Web</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/jko.dev (2).png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa-solid fa-xmark" onclick="hideMenu();"></i>
+               <ul>
+                  <li><a href=""></a>HOME</li>
+                  <li><a href=""></a>ABOUT</li>
+                  <li><a href=""></a>COURSES</li>
+                  <li><a href=""></a>CONTACT</li>
+               </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu();"></i>
+        </nav>
+      <div class="text-box">
+          <h1>KodeGo Web Development</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Ipsa possimus cupiditate vel beatae velit!</p>
+          <a href="" class="hero-btn">Visit us to know More!</a>
+      </div>
+    </section>
+
+    <!-- Course -->
+
+    <section class="course">
+        <h1>KodeGO Courses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quidem.</p>
+
+        <div class="row">
+            <div class="col-course">
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, atque!</p>
+            </div>
+      
+            <div class="col-course">
+                <h3>Mobile Development</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quos autem beatae ducimus eaque perspiciatis sed iure temporibus vel accusamus!</p>
+            </div>
+      
+            <div class="col-course">
+                <h3>Full Stack Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, atque!</p>
+            </div>
+       </div>
+    </section>
+
+    <!-- campus -->
+
+    <section class="campus">
+        <h1>Our Bootcamp</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, sint.</p>
+        <div class="row">
+            <div class="campus-col">
+                <!-- <h3>Metro Manila</h3> -->
+                <div class="layer">
+                    <img src="images/campus3.jpg" alt="">    
+                </div>
+            </div>
+            <!-- <div class="campus-col">
+                <h3>Metro Cebu</h3>
+                <div class="layer">
+                    <img src="images/campus3.jpg" alt="">
+                </div>
+            </div>
+            <div class="campus-col">
+                <h3>Metro Davao</h3>
+                <div class="layer">
+                    <img src="images/campus3.jpg" alt="">
+                </div>
+           </div> -->
+           <div class="campus-col">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet aspernatur atque et aut, officiis ex alias totam, reiciendis labore dignissimos, iure voluptatem dolorum porro obcaecati quaerat soluta quae expedita? Odio.
+                Quibusdam dolorem, suscipit ipsam sequi tempore est sint autem id laudantium repudiandae a qui aspernatur adipisci aut minima officiis! Pariatur inventore consectetur delectus, labore autem quod exercitationem eum dignissimos molestias!
+                Architecto, nisi neque dolorum quod at assumenda quo earum accusantium suscipit velit eligendi praesentium ea dolor voluptate aut reiciendis tempore fugit laborum molestiae adipisci perferendis ducimus. Rem ab ducimus consectetut alias exercitationem.
+                Soluta quasi deserunt magni deleniti odio tempore praesentium laudantium dolorem. Tempora, debitis beatae minus laborum nam in accusantium saepe quidem animi vel sunt quos aut quo corporis laboriosam iste quisquam!
+                Esse, laborum? Facilis illum molestias animi veniam ullam vitae voluptas quisquam itaque est dicta quasi esse repellat, culpa perferendis, quae sapiente, quaerat consectetur Tempore nemo assumenda, similique in unde sequi voluptatibus incidunt neque explicabo quas eveniet minus doloribus sunt sed iusto nihil officia!
+                Veritatis vitae cumque, soluta sed omnis officia fugiat impedit libero, minima expedita ad incidunt alias placeat, velit ipsa! Quos facere voluptate fuga sapiente eligendi, sequi inventore vitae ducimus commodi tempora?
+                .</p>
+           </div>
+        </div>
+    </section>
+  
+
+<!-- Javascript toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu()
+        {
+          navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+          navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
